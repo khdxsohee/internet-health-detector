@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internet Health Detector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Internet Health Detector</h1>
+    <p>Check your internet connection status & speed (ping test).</p>
+
+    <div class="status-card" id="statusCard">
+      <div class="indicator" id="indicator"></div>
+      <h2 id="status">Click to Check</h2>
+      <p id="pingResult">---</p>
+    </div>
+
+    <button onclick="checkInternet()">Check Internet</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
